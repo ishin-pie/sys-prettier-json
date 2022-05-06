@@ -22,6 +22,8 @@ const json = JSON.parse('{ "sys": "Simple Yet Special", "awesome": true, "option
 const htmlString = prettyJson(JSON.stringify(json, undefined, 4));
 ```
 
+[Demo - https://jsfiddle.net/q7zewko5/11/](https://jsfiddle.net/q7zewko5/11/)
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
