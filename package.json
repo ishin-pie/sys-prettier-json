@@ -1,46 +1,46 @@
 {
-  "name": "sys-prettier-json",
-  "version": "1.0.0",
-  "description": "Format JSON with beautiful color",
-  "source": "src/index.ts",
-  "main": "dist/main.js",
-  "types": "dist/types.d.ts",
-  "module": "dist/module.js",
-  "scripts": {
-    "dev": "parcel watch",
-    "build": "parcel build",
-    "test": "jest --coverage",
-    "lint": "eslint . --fix"
-  },
-  "jest": {
-    "preset": "ts-jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ishin-pie/sys-prettier-json.git"
-  },
-  "keywords": [
-    "json-formatter"
-  ],
-  "author": "Ishin Vin",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ishin-pie/sys-prettier-json/issues"
-  },
-  "homepage": "https://github.com/ishin-pie/sys-prettier-json#readme",
-  "devDependencies": {
-    "@parcel/packager-ts": "^2.5.0",
-    "@parcel/transformer-typescript-types": "^2.5.0",
-    "@types/jest": "^27.5.0",
-    "@typescript-eslint/eslint-plugin": "^5.22.0",
-    "@typescript-eslint/parser": "^5.22.0",
-    "eslint": "^8.14.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "jest": "^28.0.3",
-    "parcel": "^2.5.0",
-    "prettier": "^2.6.2",
-    "ts-jest": "^28.0.1",
-    "typescript": "^4.6.4"
-  }
+    "name": "sys-prettier-json",
+    "version": "1.0.0",
+    "description": "Format JSON with beautiful color",
+    "source": "src/index.ts",
+    "main": "dist/main.js",
+    "types": "dist/types.d.ts",
+    "module": "dist/module.js",
+    "scripts": {
+        "dev": "parcel watch",
+        "build": "parcel build",
+        "test": "jest --coverage",
+        "lint": "eslint . --fix"
+    },
+    "jest": {
+        "preset": "ts-jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ishin-pie/sys-prettier-json.git"
+    },
+    "keywords": [
+        "json-formatter"
+    ],
+    "author": "Ishin Vin",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ishin-pie/sys-prettier-json/issues"
+    },
+    "homepage": "https://github.com/ishin-pie/sys-prettier-json#readme",
+    "devDependencies": {
+        "@parcel/packager-ts": "^2.5.0",
+        "@parcel/transformer-typescript-types": "^2.5.0",
+        "@types/jest": "^27.5.0",
+        "@typescript-eslint/eslint-plugin": "^5.22.0",
+        "@typescript-eslint/parser": "^5.22.0",
+        "eslint": "^8.14.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "jest": "^28.0.3",
+        "parcel": "^2.5.0",
+        "prettier": "^2.6.2",
+        "ts-jest": "^28.0.1",
+        "typescript": "^4.6.4"
+    }
 }
